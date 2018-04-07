@@ -1,0 +1,40 @@
+.innerWrapper {
+    width: 200px;
+}
+
+.conversionRate {
+    width: 100%;
+    font-size: 70%;
+    box-sizing: border-box;
+    padding-bottom: 3px;
+}
+
+select {
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    box-sizing: border-box;
+    padding: 5px 5px;
+    background-color: #487085;
+    color: white;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 40px 10%;
+    box-sizing: border-box;
+    border: none;
+    font-size: 26px;
+    background-color: #034D73;
+    color: white;
+}
+
+img {
+    max-width: 30px;
+    margin-left: -30px;
+    margin-top: 60px; 
+}
+

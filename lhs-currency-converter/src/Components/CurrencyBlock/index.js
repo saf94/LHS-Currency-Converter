@@ -27,7 +27,7 @@ class CurrencyBlock extends Component {
     render() { 
         console.log("inputvalue", this.state.inputValue)
         return ( 
-            <div>
+            <div class="innerWrapper">
                 <div className="conversionRate">1 {this.props.currency.currency} = {this.props.oppositeCurrency.rate / this.props.currency.rate} {this.props.oppositeCurrency.currency} </div>
 
                 <div className="currency">
