@@ -10,7 +10,7 @@ class Home extends Component {
             currenciesList: [],
             leftConversionRate: 0,
             leftCurrency: currencies[1],
-            leftConvertedValue: 1.2234,
+            leftConvertedValue: 1.22,
             rightConversionRate: 0,
             rightCurrency: currencies[0],
             rightConvertedValue: 1,
@@ -91,7 +91,7 @@ class Home extends Component {
         return ( 
             <div className="container">
                 <h1>Currency Converter</h1>
-                <div class="wrapper">
+                <div className="wrapper">
                     <CurrencyBlock conversionRate={this.state.leftConversionRate} currency={this.state.leftCurrency} oppositeCurrency={this.state.rightCurrency} convertedValue={this.state.leftConvertedValue} currenciesList={this.state.currenciesList} handleChangeCurrenciesList={this.leftHandleChangeCurrenciesList} handleChangeConvertedValue={this.lefthandleChangeConvertedValue}/>
                     <img src='repeat.png' />
                     <CurrencyBlock conversionRate={this.state.rightConversionRate} currency={this.state.rightCurrency} oppositeCurrency={this.state.leftCurrency} convertedValue={this.state.rightConvertedValue} currenciesList={this.state.currenciesList} handleChangeCurrenciesList={this.rightHandleChangeCurrenciesList} handleChangeConvertedValue={this.righthandleChangeConvertedValue}/>

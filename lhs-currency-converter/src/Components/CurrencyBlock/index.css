@@ -1,3 +1,5 @@
+
+
 .innerWrapper {
     width: 200px;
 }
@@ -34,7 +36,14 @@ input[type=text] {
 
 img {
     max-width: 30px;
-    margin-left: -30px;
-    margin-top: 60px; 
+    margin-left: 80px;
+    margin-top: 50px; 
 }
 
+@media screen and (min-width: 550px) {
+    img {
+        max-width: 30px;
+        margin-left: -30px;
+        margin-top: 60px; 
+    }
+}
