@@ -22,7 +22,6 @@ class Home extends Component {
             currenciesArray.push(items.fullName)
         })
 
-        console.log(currenciesArray);
         this.setState({
             currenciesList: currenciesArray
         })
@@ -71,8 +70,6 @@ class Home extends Component {
     }
 
     shouldComponentUpdate(nextProps, nextState) {
-        console.log("current state", this.state);
-        console.log("next state", nextState);
         if (this.state.leftConvertedValue !== nextState.leftConvertedValue) {
             let newRightValue = (nextState.leftConvertedValue / nextState.leftCurrency.rate) * nextState.rightCurrency.rate;
             this.setState({
@@ -90,13 +87,12 @@ class Home extends Component {
     }
     
     render() { 
-        // console.log(this.state)
         return ( 
             <div>
                 <h1>Currency Converter</h1>
-                <CurrencyBlock conversionRate={this.state.leftConversionRate} currency={this.state.leftCurrency} convertedValue={this.state.leftConvertedValue} currenciesList={this.state.currenciesList} handleChangeCurrenciesList={this.leftHandleChangeCurrenciesList} handleChangeConvertedValue={this.lefthandleChangeConvertedValue}/>
+                <CurrencyBlock conversionRate={this.state.leftConversionRate} currency={this.state.leftCurrency} oppositeCurrency={this.state.rightCurrency} convertedValue={this.state.leftConvertedValue} currenciesList={this.state.currenciesList} handleChangeCurrenciesList={this.leftHandleChangeCurrenciesList} handleChangeConvertedValue={this.lefthandleChangeConvertedValue}/>
                 <span>switcher icon</span>
-                <CurrencyBlock conversionRate={this.state.rightConversionRate} currency={this.state.rightCurrency} convertedValue={this.state.rightConvertedValue} currenciesList={this.state.currenciesList} handleChangeCurrenciesList={this.rightHandleChangeCurrenciesList} handleChangeConvertedValue={this.righthandleChangeConvertedValue}/>
+                <CurrencyBlock conversionRate={this.state.rightConversionRate} currency={this.state.rightCurrency} oppositeCurrency={this.state.leftCurrency} convertedValue={this.state.rightConvertedValue} currenciesList={this.state.currenciesList} handleChangeCurrenciesList={this.rightHandleChangeCurrenciesList} handleChangeConvertedValue={this.righthandleChangeConvertedValue}/>
             </div>
          )
     }
