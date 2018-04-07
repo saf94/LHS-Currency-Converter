@@ -1,0 +1,22 @@
+[
+    {
+        "currency": "EUR",
+        "fullName": "Euro",
+        "rate": "1.00"
+    },
+    {
+        "currency": "USD",
+        "fullName": "United States Dollar", 
+        "rate": "1.2234"
+    },
+    {
+        "currency": "JPY",
+        "fullName": "Japanese Yen",
+        "rate": "131.32"
+    },
+    {
+        "currency": "GBP",
+        "fullName": "Pound Sterling",
+        "rate": "0.87295"
+    }
+]
