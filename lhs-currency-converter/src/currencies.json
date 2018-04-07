@@ -18,5 +18,160 @@
         "currency": "GBP",
         "fullName": "Pound Sterling",
         "rate": "0.87295"
+    },
+    {
+        "currency": "BGN",
+        "fullName": "Bulgarian lev",
+        "rate": "1.9558"
+    },
+    {
+        "currency": "CZK",
+        "fullName": "Czech koruna",
+        "rate": "25.339"
+    },
+    {
+        "currency": "DKK",
+        "fullName": "Danish krone",
+        "rate": "7.4474"
+    },
+    {
+        "currency": "HUF",
+        "fullName": "Hungarian forint",
+        "rate": "312.56"
+    },
+    {
+        "currency": "PLN",
+        "fullName": "Polish zloty",
+        "rate": "4.1983"
+    },
+    {
+        "currency": "RON",
+        "fullName": "Romanian leu",
+        "rate": "4.6636"
+    },
+    {
+        "currency": "SEK",
+        "fullName": "Swedish krona",
+        "rate": "10.2983"
+    },
+    {
+        "currency": "CHF",
+        "fullName": "Swiss franc",
+        "rate": "1.1798"
+    },
+    {
+        "currency": "ISK",
+        "fullName": "Icelandic krona",
+        "rate": "121.30"
+    },
+    {
+        "currency": "NOK",
+        "fullName": "Norwegian krone",
+        "rate": "9.5860"
+    },
+    {
+        "currency": "RON",
+        "fullName": "Romanian leu",
+        "rate": "4.6636"
+    },
+    {
+        "currency": "HRK",
+        "fullName": "Croatian kuna",
+        "rate": "7.4240"
+    },
+    {
+        "currency": "RUB",
+        "fullName": "Russian rouble",
+        "rate": "70.8270"
+    },
+    {
+        "currency": "TRY",
+        "fullName": "Turkish lira",
+        "rate": "4.9644"
+    },
+    {
+        "currency": "AUD",
+        "fullName": "Australian dollar",
+        "rate": "1.5934"
+    },
+    {
+        "currency": "BRL",
+        "fullName": "Brazilian real",
+        "rate": "4.1111"
+    },
+    {
+        "currency": "CAD",
+        "fullName": "Canadian dollar",
+        "rate": "1.5650"
+    },
+    {
+        "currency": "CNY",
+        "fullName": "Chinese yuan renminbi",
+        "rate": "7.7138"
+    },
+    {
+        "currency": "NOK",
+        "fullName": "Norwegian krone",
+        "rate": "9.5860"
+    },
+    {
+        "currency": "HKD",
+        "fullName": "Hong Kong dollar",
+        "rate": "9.6014"
+    },
+    {
+        "currency": "IDR",
+        "fullName": "Indonesian rupiah",
+        "rate": "16850.50"
+    },
+    {
+        "currency": "ILS",
+        "fullName": "Israeli shekel",
+        "rate": "4.3262"
+    },
+    {
+        "currency": "INR",
+        "fullName": "Indian rupee",
+        "rate": "79.4810"
+    },
+    {
+        "currency": "KRW",
+        "fullName": "South Korean won",
+        "rate": "1310.95"
+    },
+    {
+        "currency": "MXN",
+        "fullName": "Mexican peso",
+        "rate": "22.3317"
+    },
+    {
+        "currency": "MYR",
+        "fullName": "Malaysian ringgit",
+        "rate": "4.7363"
+    },
+    {
+        "currency": "NZD",
+        "fullName": "New Zealand dollar",
+        "rate": "1.6884"
+    },
+    {
+        "currency": "PHP",
+        "fullName": "Philippine piso",
+        "rate": "63.690"
+    },
+    {
+        "currency": "SGD",
+        "fullName": "Singapore dollar",
+        "rate": "1.6138"
+    },
+    {
+        "currency": "THB",
+        "fullName": "Thai baht",
+        "rate": "38.280"
+    },
+    {
+        "currency": "ZAR",
+        "fullName": "South African rand",
+        "rate": "14.7757"
     }
 ]
